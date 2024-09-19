@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "Playfair Display", sans-serif;
+}
+
+body {
+  background: linear-gradient(to right, #da4453, #89216b);
+}
+.form-todo {
+  max-width: 100%;
+  height: 20vh;
+}
+.todo-container {
+  margin-left: 70vh;
+  padding-top: 7vh;
+  justify-content: space-between;
+  align-items: center;
+}
+.form-todo .todo-container input[type="text"] {
+  width: 40vh;
+  height: 5vh;
+  border-radius: 10px;
+  font-size: large;
+  font-weight: 500;
+  padding-left: 9px;
+}
+
+.form-todo .todo-container input[type="submit"] {
+  width: 13vh;
+  height: 5vh;
+  border-radius: 10px;
+  text-transform: uppercase;
+  font-size: large;
+  font-weight: bold;
+}
+.todo-lists {
+  list-style: none;
+  width: 100%;
+  min-height: 60vh;
+  background-color: white;
+}
+.span-todo {
+  display: flex;
+  background: linear-gradient(to right, #da4453, #89216b);
+}
+span {
+  color: white;
+}
+.todo-lists .todo-title {
+  font-size: 2rem;
+  font-weight: bold;
+  padding: 1rem;
+  margin-left: 10vh;
+  /* position: relative; */
+}
+.buttons {
+  margin-left: 90vh;
+  margin-top: 2.5vh;
+}
+.done,
+.remove {
+  width: 5rem;
+  height: 2rem;
+  border-radius: 10px;
+  font-size: large;
+  font-weight: 500;
+}
